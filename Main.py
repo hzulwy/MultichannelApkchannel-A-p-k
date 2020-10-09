@@ -9,7 +9,7 @@ from FileUtils import FileUtils
 if __name__ == "__main__":
 
     fileUtils = FileUtils()
-    srcpath = "H:\\"  # 母包存放地址
+    srcpath = "H:\\channel\\"  # 母包存放地址
     despath = fileUtils.getChannelApkPath(str(srcpath) + 'channelApk') + '\\'  # 渠道包存放地址
 
     fileUtils.storeOriginFileName(srcpath,'.apk')
